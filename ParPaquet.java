@@ -1,7 +1,6 @@
 public abstract class ParPaquet extends Ingredients{
 
     private double cal;
-    private 
+    private double gras;
 
-	Paul wrote this
 }
