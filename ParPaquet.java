@@ -1,10 +1,16 @@
 public abstract class ParPaquet extends Ingredients{
 
     private double cal;
-<<<<<<< HEAD
     private double carb;
-=======
     private double gras;
->>>>>>> 136150b722c2915ade5894312ee6e715dfb7a4cc
+    private double prot;
+    private double proportion;
 
+    public ParPaquet(String nom, double cal, double carb, double prot, double proportion){
+        super(nom);
+        this.cal = cal;
+        this.carb = carb;
+        this.prot = prot;
+        this.proportion = proportion;
+    }
 }
