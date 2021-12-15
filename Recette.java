@@ -1,7 +1,7 @@
 public class Recette{
 
-    private String nom;
-    private Ingredients[] tabIngredients;
+    protected String nom;
+    protected Ingredients[] tabIngredients;
 
     public Recette(String nom,Ingredients[] tabIngredients){
         this.nom=nom;
