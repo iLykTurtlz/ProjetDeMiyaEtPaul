@@ -27,4 +27,12 @@ public class Recette{
         }
         return nutriTab;
     }
+
+    public String toString(){
+        String s =this.nom+" : \n";
+        for(int i=0; i<this.tabIngredients.length; i++){
+            s+=this.tabIngredients[i].toString()+"\n";
+        }
+        return s;
+    }
 }

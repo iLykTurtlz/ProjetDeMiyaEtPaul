@@ -1,0 +1,12 @@
+Steak au riz
+Riz 60
+Steak 100
+#Faites cuire le riz
+#Faites cuire le steak
+#Mélangez
+Riz au steak
+Riz 200
+Steak 60
+#Faites cuire le steak
+#Faites cuire le riz
+#Mélangez

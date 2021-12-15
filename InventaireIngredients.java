@@ -71,6 +71,10 @@ public class InventaireIngredients{
         }
         return s;
     }
+
+    public ArrayList<Ingredients> getTabIngredients(){
+        return this.tabIngredients;
+    }
     
 
 

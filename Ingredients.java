@@ -23,4 +23,8 @@ public class Ingredients{
         return this.nom+" Calories : "+this.cal+"cal Carbohydrates : "+this.carb+"mg Gras :"+this.gras+"mg Protéines : "+this.prot+" mg";
     }
 
+    public String getNom(){
+        return nom;
+    }
+
 }
