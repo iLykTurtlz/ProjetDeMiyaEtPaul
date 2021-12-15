@@ -1,4 +1,4 @@
-public class Ingredients{
+public abstract class Ingredients{
 
     protected String nom;
     protected double cal;
@@ -27,8 +27,8 @@ public class Ingredients{
         return nom;
     }
 
-    public Ingredients clone(){
-        return new Ingredients(this.nom, this.cal, this.carb, this.gras, this.prot);
-    }
+    public abstract void setQte(double qte);
+    public abstract Ingredients clone();
+    public abstract boolean equals(Ingredients i);
 
 }

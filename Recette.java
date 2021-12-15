@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Recette{
 
     protected String nom;
@@ -43,4 +44,61 @@ public class Recette{
         }
         return new Recette(this.nom,cloneTabIngredients);
     }
+
+    public static Recette genererRecetteMidi(Regime r, LivreDeRecettes l, double[] nutriJournee){
+        
+        ArrayList<Recette> liste_recettes = l.getLivre();
+        int idx = (int)(Math.random()*(liste_recettes.size()));
+        int securite_iterateur = 0;
+        while((liste_recettes.get(idx).calculNutri()[0]>(r.getCalMinMax()[1]-nutriJournee[0])
+            || liste_recettes.get(idx).calculNutri()[1]>(r.getCarbMinMax()[1]-nutriJournee[1])
+            || liste_recettes.get(idx).calculNutri()[2]>(r.getGrasMinMax()[1]-nutriJournee[2])
+            || liste_recettes.get(idx).calculNutri()[3]>(r.getProtMinMax()[1])-nutriJournee[3])&& securite_iterateur<liste_recettes.size() ){
+            idx = (int)(Math.random()*(liste_recettes.size()));
+        }
+        Recette recetteMidi = liste_recettes.get(idx).clone();
+        double[] nutriRecetteMidi = recetteMidi.calculNutri();
+        for(int i=0; i<nutriRecetteMidi.length; i++){
+            nutriJournee[i]+=nutriRecetteMidi[i];
+        }
+
+        return recetteMidi;
+    }
+
+    public static Recette genererRecetteSoir(Regime r, LivreDeRecettes l, double[] nutriJournee, Plat platMidi){
+        
+        ArrayList<Recette> liste_recettes = l.getLivre();
+        int idx = (int)(Math.random()*(liste_recettes.size()));
+        int securite_iterateur = 0;
+        while((liste_recettes.get(idx).calculNutri()[0]>r.getCalMinMax()[1]
+            || liste_recettes.get(idx).calculNutri()[1]>r.getCarbMinMax()[1]
+            || liste_recettes.get(idx).calculNutri()[2]>r.getGrasMinMax()[1]
+            || liste_recettes.get(idx).calculNutri()[3]>r.getProtMinMax()[1]) && securite_iterateur<liste_recettes.size() ){
+            idx = (int)(Math.random()*(liste_recettes.size()));
+        }
+        Recette recetteMidi = liste_recettes.get(idx).clone();
+        double[] nutriRecetteMidi = recetteMidi.calculNutri();
+        for(int i=0; i<nutriRecetteMidi.length; i++){
+            nutriJournee[i]+=nutriRecetteMidi[i];
+        }
+
+        return recetteMidi;
+    }
+
+    public boolean equals(Recette r){
+        if(!(this.nom.equals(r.nom))){
+            return false;
+        }
+        if(this.tabIngredients.length!=r.tabIngredients.length){
+            return false;
+        }
+        for(int i=0; i<this.tabIngredients.length; i++){
+            if(!(this.tabIngredients[i].equals(r.tabIngredients[i]))){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    
 }

@@ -19,4 +19,11 @@ public class Viande extends ParPoids{
     public Viande clone(){
         return new Viande(this.nom, this.cal, this.carb, this.gras, this.prot, this.choles, this.poids);
     }
+
+    public boolean equals(Ingredients i){
+        if(i.getClass()!=this.getClass()){
+            return false;
+        }
+        return (super.equals(i))&&(((Viande)i).choles==this.choles);
+    }    
 }

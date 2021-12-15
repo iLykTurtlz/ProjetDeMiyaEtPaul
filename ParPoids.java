@@ -12,4 +12,15 @@ public abstract class ParPoids extends Ingredients{
         return nutriTab;
     }
 
+    public void setQte(double qte){
+        this.poids = qte;
+    }
+
+    public boolean equals(Ingredients i){
+        if(i.getClass()!=this.getClass()){
+            return false;
+        }
+        return (this.nom).equals(i.nom)&&(this.cal==i.cal)&&(this.carb==i.carb)&&(this.gras==i.gras)&&(this.prot==i.prot)&&(this.poids==(((ParPoids)i).poids));
+    }
+
 }

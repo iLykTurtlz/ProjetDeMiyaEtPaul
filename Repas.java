@@ -1,13 +1,11 @@
 public class Repas{
 
-    private String nom;
     private Entree entree;
     private Plat plat;
     private Dessert dessert;
 
 
-    public Repas(String nom, Entree entree, Plat plat, Dessert dessert){
-        this.nom = nom;
+    public Repas(Entree entree, Plat plat, Dessert dessert){
         this.entree = entree;
         this.plat = plat;
         this.dessert = dessert;
@@ -25,5 +23,13 @@ public class Repas{
 		
 		return nutriTab;
 	}
+
+    public static Repas genererRepasMidi(Regime r, LivreDeRecettes entrees, LivreDeRecettes plats, LivreDeRecettes desserts, double[] nutriJournee){
+        Entree monEntree = Recette.genererRecetteMidi(r,entrees,nutriJournee);
+        Plat monPlat = Recette.genererRecetteMidi(r,plats,nutriJournee);
+        Dessert monDessert = Recette.genererRecetteMidi(r,desserts,nutriJournee);
+        return new Repas(monEntree,monPlat,monDessert);
+    }
+
 
 }

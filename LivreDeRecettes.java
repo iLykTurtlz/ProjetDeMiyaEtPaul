@@ -59,7 +59,9 @@ public class LivreDeRecettes{
                     while(!(inventaireTab.get(k).getNom().equals(lst_data_recettes_labels.get(i).get(j)))){
                         k++;
                     }
-                    tabI[j]=inventaireTab.get(k);
+                    tabI[j]=inventaireTab.get(k).clone();
+                    tabI[j].setQte(lst_data_recettes_qte.get(i).get(j));
+
                 }
                 Recette recette = new Recette(noms_recettes.get(i),tabI);
                 this.tabRecettes.add(recette);

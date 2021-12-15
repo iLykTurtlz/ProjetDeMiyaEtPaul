@@ -39,6 +39,8 @@ public class Menu{
             nutriJournee[i]+=nutriEntreeMidi[i];
         }
 
+        
+
 
     }
 
