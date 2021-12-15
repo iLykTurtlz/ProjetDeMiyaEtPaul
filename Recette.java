@@ -41,6 +41,6 @@ public class Recette{
         for(int i=0; i<cloneTabIngredients.length; i++){
             cloneTabIngredients[i]= this.tabIngredients[i].clone();
         }
-        return new Recette(this.nom,cloneTabIngredients ;)
+        return new Recette(this.nom,cloneTabIngredients);
     }
 }

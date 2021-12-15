@@ -5,6 +5,7 @@ public class Repas{
     private Plat plat;
     private Dessert dessert;
 
+
     public Repas(String nom, Entree entree, Plat plat, Dessert dessert){
         this.nom = nom;
         this.entree = entree;
@@ -24,6 +25,5 @@ public class Repas{
 		
 		return nutriTab;
 	}
-
 
 }

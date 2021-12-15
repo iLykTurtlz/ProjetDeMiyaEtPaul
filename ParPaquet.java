@@ -11,4 +11,8 @@ public class ParPaquet extends Ingredients{
         double[] nutriTab = {super.cal*proportion,super.carb*proportion,super.gras*proportion,super.prot*proportion};
         return nutriTab;
     }
+
+    public ParPaquet clone(){
+        return new ParPaquet(this.nom, this.cal, this.carb, this.gras, this.prot,this.proportion);
+    }
 }

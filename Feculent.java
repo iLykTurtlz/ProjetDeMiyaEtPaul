@@ -4,5 +4,10 @@ public class Feculent extends ParPoids{
         super(nom, cal, carb, gras, prot, poids);
     }
 
+    public Feculent clone(){
+        return new Feculent(super.nom, super.cal, super.carb, super.gras, super.prot, super.poids);
+    }
+     
+
 
 }

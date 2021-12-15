@@ -15,4 +15,8 @@ public class Viande extends ParPoids{
     public String toString(){
         return super.toString()+" Cholésterol : "+this.choles+" mg";
     }
+
+    public Viande clone(){
+        return new Viande(this.nom, this.cal, this.carb, this.gras, this.prot, this.choles, this.poids);
+    }
 }

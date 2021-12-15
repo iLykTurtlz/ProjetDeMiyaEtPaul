@@ -27,6 +27,8 @@ public class Ingredients{
         return nom;
     }
 
-    public Ingredients clone()
+    public Ingredients clone(){
+        return new Ingredients(this.nom, this.cal, this.carb, this.gras, this.prot);
+    }
 
 }
