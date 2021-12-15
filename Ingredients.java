@@ -27,4 +27,6 @@ public class Ingredients{
         return nom;
     }
 
+    public Ingredients clone()
+
 }

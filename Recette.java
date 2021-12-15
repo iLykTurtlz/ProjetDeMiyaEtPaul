@@ -35,4 +35,12 @@ public class Recette{
         }
         return s;
     }
+
+    public Recette clone(){
+        Ingredients [] cloneTabIngredients = new Ingredients[this.tabIngredients.length];
+        for(int i=0; i<cloneTabIngredients.length; i++){
+            cloneTabIngredients[i]= this.tabIngredients[i].clone();
+        }
+        return new Recette(this.nom,cloneTabIngredients ;)
+    }
 }

@@ -76,6 +76,10 @@ public class LivreDeRecettes{
         }
         return s;
     }
+
+    public ArrayList<Recette> getLivre(){
+        return this.tabRecettes;
+    }
     
 
 
