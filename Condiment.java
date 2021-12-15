@@ -4,3 +4,4 @@ public class Condiment extends ParVolume{
         super(nom, cal, carb, gras, prot, vol);
     }
 
+}
