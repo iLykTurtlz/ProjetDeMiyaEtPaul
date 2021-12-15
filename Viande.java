@@ -11,4 +11,8 @@ public class Viande extends ParPoids{
         double[] nutriTab = {super.cal*poids/100,super.carb*poids/100,super.gras*poids/100,super.prot*poids/100, this.choles*poids/100};
         return nutriTab;
     }
+
+    public String toString(){
+        return super.toString()+" Cholésterol : "+this.choles+" mg";
+    }
 }
