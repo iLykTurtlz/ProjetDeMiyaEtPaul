@@ -4,4 +4,5 @@ public class Feculent extends ParPoids{
         super(nom, cal, carb, gras, prot, poids);
     }
 
+
 }

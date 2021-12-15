@@ -1,10 +1,10 @@
 public class Ingredients{
 
-    private String nom;
-    private double cal;
-    private double carb;
-    private double gras;
-    private double prot;
+    protected String nom;
+    protected double cal;
+    protected double carb;
+    protected double gras;
+    protected double prot;
 
     public Ingredients(String nom, double cal, double carb, double gras, double prot){
         this.nom = nom;
@@ -12,6 +12,11 @@ public class Ingredients{
         this.carb = carb;
         this.gras = gras;
         this.prot = prot;
+    }
+
+    public double[] getNutri(){
+        double[] nutriTab = {this.cal,this.carb,this.gras,this.prot};
+        return nutriTab;
     }
 
 }
