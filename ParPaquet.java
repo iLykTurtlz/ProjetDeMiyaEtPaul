@@ -1,4 +1,4 @@
-public abstract class ParPaquet extends Ingredients{
+public class ParPaquet extends Ingredients{
 
     private double cal;
     private double carb;
