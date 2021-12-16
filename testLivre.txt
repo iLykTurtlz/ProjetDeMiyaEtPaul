@@ -1,12 +1,95 @@
-Steak au riz
-Riz 60
-Steak 100
-#Faites cuire le riz
-#Faites cuire le steak
-#Mélangez
-Riz au steak
-Riz 200
-Steak 60
-#Faites cuire le steak
-#Faites cuire le riz
-#Mélangez
+Magret-potimarron-poire
+Canard-magret 50
+Poire 0.5
+Miel 5
+Potimarron 0.25
+#Préchauffez le four à 240°C. Épluchez puis coupez les poires en quartiers. 
+#
+#Coupez le potimarron en deux, évidez-le et coupez-le en quartiers assez fins.
+#
+#Réalisez des entailles en forme de croisillons dans la peau du canard jusqu’à la chair. Déposez les magrets dans un plat. Salez et poivrez chaque côté du magret.
+#
+#Ajoutez le potimarron et les poires autour du magret, salez et poivrez. Saupoudrez de romarin. Ajoutez un filet de miel et d'huile d'olive. Mélangez et enfournez pour 10 minutes à 240°C.
+#
+#Après 10 minutes de cuisson, retournez le magret et baissez la température à 200°C. Ré-enfournez pour 10 minutes.
+#
+#Sortez du four,servez, c'est prêt!
+#----------------#
+Salade-lentilles
+Lentilles 80
+Salade 2
+Feta 40
+Carotte 0.5
+Noix 2
+Miel 5
+Moutarde 5
+#Épluchez les carottes et râpez-les.
+#
+#Rincez les lentilles et égouttez-les.
+#
+#Préparez la vinaigrette : dans un bol, mélangez la moutarde, le miel et 1 c. à soupe d'huile d'olive par personne. Salez et poivrez selon vos goûts.
+#
+#Dans un saladier ajoutez tous les ingrédients : la mâche, les lentilles, les carottes, la feta émiettée, les noix et la vinaigrette. Mélangez et servez. C'est prêt !
+#---------------#
+Gratin-de-polenta
+Polenta 50
+Parmesan 5
+Oeuf 1
+Jambon 2
+Lait 250
+Epinard 1
+#Préchauffez le four à 220°C. Faire bouillir le lait dans une casserole.
+#
+#Ajoutez ensuite la polenta en pluie tout en remuant avec un fouet pendant 3 à 4 minutes jusqu'à obtenir une texture crémeuse.
+#
+#Salez, poivrez et incorporez la moitié du parmesan râpé dans la polenta et un peu plus de lait si trop épais.
+#
+#Beurrez (ou huilez) un moule allant au four. Étalez la polenta dans le moule, ajoutez le jambon déchiré et les épinards.
+#
+#À l'aide d'une cuillère, faites des trous dans la polenta et cassez-y les oeufs. Saupoudrez du reste parmesan. 
+#
+#Enfournez 10 à 15 min, selon vos préférences de cuisson des oeufs. Laissez refroidir 5 minutes avant de servir. Salez, poivrez, c'est prêt !
+#----------------------#
+Farfalles-automnales
+Pates 100
+Champignon 100
+Chèvre 30
+Epinard 1
+Ail 0.25
+#Dans une casserole d'eau chaude, faites cuire les farfalles selon les instructions du paquet. Égouttez-les en fin de cuisson.
+#
+#Lavez les champignons et coupez-les en tranches.
+#
+#Épluchez puis émincez l'ail.
+#
+#Dans une poêle, ajoutez une noisette de beurre ainsi que l'ail et les champignons. Faites revenir la poêlée 10 minutes. 
+#
+#Ajoutez les farfalles dans la poêle avec les champignons, salez, poivrez, ajoutez les épinards, mélangez et laissez rissoler 2 minutes.
+#
+#Servez les pâtes, ajoutez du chèvre frais, salez, poivrez. C'est prêt !
+#-----------------------#
+Roti-butternut-chataignes
+Butternut 1
+Marrons 200
+Champignon 200
+Oignon 1
+Noisette 40
+Miel 5
+#Coupez les champignons en lamelles.
+#
+#Épluchez puis coupez les oignons en fines lamelles.
+#
+#Concassez grossièrement les noisettes à l'aide d'un couteau.
+#
+#Coupez le butternut en deux dans la longueur et videz-le. Creusez-le encore un peu plus à l'aide d'une cuillère et récupérez la chair.
+#
+#Dans une casserole, versez un filet d'huile d'olive et ajoutez les champignons, les oignons, la chair de butternut, les châtaignes et les noisettes. Salez, poivrez et mélangez.
+#
+#Versez le miel dans la poêle, mélangez et laissez cuire à feu moyen 10 minutes en remuant régulièrement.
+#
+#Préchauffez le four à 180°C. Versez un filet d'huile d'olive dans un plat allant au four. Ajoutez les demi-butternut, salez et poivrez. Garnissez chaque moitié de butternut avec la farce.
+#
+#Refermez le butternut, en plaçant une moitié sur l'autre. Nouez du fil tout autour de votre courge pour la garder bien fermée. Enfournez le butternut pendant 1h à 180°C.
+#
+#C'est prêt!
+#-------------------#

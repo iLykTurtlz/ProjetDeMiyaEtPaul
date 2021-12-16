@@ -1,2 +1,24 @@
-Feculent Riz 102 56 48 56 60
-Viande Steak 236 45 09 65 10 78
+Viande Canard-magret 198 0 12 22 0.370 100
+ParPaquet Poire 50 12.2 0.3 0.4 1
+Condiment Miel 930 230 0 0 100
+ParPaquet Potimarron 20 4.1 0.1 0.8 1
+ParPoids Lentilles 99 16 0.5 7.5 100
+ParPaquet Salade 13 2 0.2 1 1
+ParPoids Feta 264 4.1 21 14 100
+ParPaquet Carotte 30 6.4 0.3 1 1
+ParPoids Noix 460 8 44 20 1000
+Condiment Moutarde 155 5 14 7 200
+ParPoids Polenta 91 12.6 3.4 2 100
+ParPoids Parmesan 382 0 27.4 34.4 100
+ParPaquet Oeuf 148 1.6 10 11 1
+ParPaquet Jambon 134 0.6 6 18 1
+Boisson Lait 45 4.5 1.5 3 1000
+ParPaquet Epinard 23 4 1 3 1
+ParPoids Pates 350 70 2.5 12 500
+ParPoids Champignon 15 0.6 0.5 2 100
+ParPoids Chèvre 164 3 12 11 100
+ParPaquet Ail 4 0.1 0 0 1
+ParPaquet Butternut 60 6 0 1 1
+ParPoids Marron 210 42 3 4 100
+ParPaquet Oignon 43 7.4 0.6 1.3 1
+ParPoids Noisette 628 17 61 15 100

@@ -1,7 +1,98 @@
-Gateau au chocolat
-Chocolat 100
-Farine 100
-Oeufs 3
-#hu
-#j!kl
-#jkk:
+Crème-aux-oeufs
+Oeuf 8
+Sucre 340
+Lait 700
+#Préchauffez votre four à 150°C (th.5). Préparez le caramel. Faites chauffer la moitié du sucre dans une casserole avec 3 cuillères à soupe d'eau. Ajoutez une pincée de fleur de sel et faites cuire jusqu'à ce que le caramel apparaisse.
+#
+#Versez le caramel dans le fond de votre moule en prenant soin de le répartir sur les bords du moule. Placez-le au frais le temps qu'il durcisse. 
+#
+#Faites chauffer le lait dans une casserole à feu moyen. 
+#
+#Pendant ce temps, cassez les œufs puis fouettez-les avec le reste du sucre. 
+#
+#Quand le lait est chaud, ajoutez-le progressivement sur le mélange œufs sucre tout en remuant. Écumez si besoin. 
+#
+#Versez votre préparation dans le moule et faites cuire au bain-marie pendant 50 minutes. 
+#
+#C'est prêt!
+#--------------------#
+Pomme-caramélisée
+Pomme 1
+Beurre 20
+Sucre 10
+Crème-fraiche 15
+Cannelle 1
+#Épluchez puis coupez les pommes en quartiers. 
+#
+#Faites chauffer le beurre et le sucre dans une poêle. Mélangez. 
+#
+#Ajoutez les pommes et laissez cuire sur feu doux 15 minutes en remuant de temps en temps. Elles doivent être bien dorées. 
+#
+#Avant la fin de cuisson, ajoutez une pincée de cannelle. Remuez une dernière fois. 
+#
+#Déposez une cuillère de crème crue et ajoutez les pommes cuites. Parsemez encore de cannelle et d'une pincée de fleur de sel si vous le souhaitez, c'est prêt !
+#----------------------------#
+Compote-pomme-banane
+Pomme 0.5
+Sucre 5
+Banane 0.5
+#Épluchez les bananes et coupez-les en tranches.
+#
+#Épluchez les pommes, retirez le cœur et les pépins et coupez-les en petits morceaux. 
+#
+#Ajoutez les fruits dans une casserole avec 50 ml d'eau/personne et le sucre (vous pouvez le remplacer par du miel). Laissez cuire à feu moyen et à couvert pendant 15 minutes en remuant régulièrement.
+#
+#Une fois le temps de cuisson écoulé, écrasez la compote à la fourchette, au presse-purée ou au mixeur. 
+#
+#C'est prêt!
+#-------------------------------#
+Brioche-perdue-fraise
+Fraise 80
+Brioche 30
+Lait 150
+Sucre 20
+Oeuf 1
+#Lavez et équeutez les fraises. Coupez-les en deux ou en quarts selon leur taille.
+#
+#Déposez-les dans un bol et ajoutez une demi cuill. à soupe de sucre par portion et mélangez. Laissez reposez au frais. 
+#
+#Dans une assiette creuse, battez à la fourchette l'œuf, le lait et une cuill. à soupe de sucre par portion. 
+#
+#Déposez les tranches de brioche dans le mélange lait/œuf et laissez-les s'imbiber généreusement de chaque côté. 
+#
+#Faites chauffer une poêle avec une noisette de beurre. Déposez les brioches dans la poêle et faites cuire 2 minutes sur chaque face à feu moyen. 
+#
+#Parsemez le restant de sucre sur le dessus des tranches de brioche. 
+#
+#Retournez-les sur l'autre face et répétez l'opération. 
+#
+#Retournez-les une dernière fois pour que chaque tranche soit bien caramélisée. 
+#
+#Débarrassez les tranches de brioche sur une assiette.
+#
+#Gardez la même poêle et ajoutez une noisette de beurre. Versez les fraises et faites cuire 3 min sur feu doux pour obtenir une légère compotée. 
+#
+#Déposez la compotée sur les tranches de brioche encore chaudes, c'est prêt ! 
+#--------------------------#
+Cookie-géant
+Beurre 200
+Farine 350
+Sucre 120
+Oeuf 4
+Chocolat 200
+#Hachez grossièrement le chocolat. Mettez 5 carrés de chocolat de côté. 
+#
+#Faites fondre le beurre à la casserole ou au micro-ondes. Versez le beurre dans un saladier et ajoutez le sucre roux. Fouettez le mélange. 
+#
+#Ajoutez les œufs tout en fouettant. Ajoutez une pincée de sel. 
+#
+#Ajoutez la farine, la levure et mélangez à l'aide d'une cuillère en bois. 
+#
+#Ajoutez le chocolat haché et mélangez. Placez au frais minimum 30 minutes.
+#
+#Préchauffez le four à 180°C. Beurrez votre moule (ici, on utilise une poêle allant au four ça marche très bien aussi !).
+#
+#Étalez la pâte à l'aide de vos mains sur toute la surface du moule et déposez les carrés de chocolat mis de côté sur le dessus en les enfonçant légèrement. 
+#
+#Enfournez pour 35-40 minutes à 180°C. Le dessus du cookie doit être doré. Parsemez de fleur de sel avant de déguster, c'est prêt !
+#----------------------------#

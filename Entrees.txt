@@ -39,3 +39,46 @@ Salade 1
 #
 #Préparez une vinaigrette, servez le toast avec la mâche arrosée de vinaigrette. C'est prêt !
 #--------------------------#
+Patates-douces-roties-au-Roquefort
+Patate-douce 200
+Roquefort 30
+Noix 10
+Salade 1
+Crème-fraiche 5
+#Préchauffez votre four à 200°C. Lavez les patates douces.
+#
+#Placez-les sur une plaque de cuisson (piquez-les si vous souhaitez une cuisson plus rapide). Enfournez 40 minutes à 200°C.
+#
+#Après 40 minutes de cuisson, sortez les patates douces du four.
+#
+#Coupez-les en deux.
+#
+#Ajoutez la crème fraîche, le roquefort et les noix. Salez et poivrez.
+#
+#Replacez le tout au four pendant 5 minutes.
+#
+#Sortez les patates douces du four, servez avec quelques feuilles de salade assaisonnées selon votre goût, c'est prêt !
+#-------------------#
+Samoussas-au-boeuf
+Carotte 1
+Ail 1
+Curry 10
+Gingembre 5
+Huile-olive 15
+Feuille-brick 5
+Boeuf-haché 250
+Oignon 1
+#Dans une poêle à feu vif, faire revenir l'oignon, l'ail et la carotte hachés dans de l'huile d'olive.
+#
+#Ajouter la viande de bœuf et laisser dorer un peu.
+#
+#Assaisonner avec le curry, le gingembre puis ajouter la sauce soja. Bien mélanger et laisser cuire à feu doux 2 à 3 min.
+#
+#Répartir la farce dans les feuilles de brick (2 samoussas par feuille) et procéder au pliage (souvent expliqué sur les paquets de feuilles de brick). 
+#
+#Coller le dernier revers avec un jaune d'œuf.
+#
+#Faire cuire dans un fond d'huile de friture, 2 min de chaque côté.
+#
+#En fin de cuisson, déposer les samoussas sur une assiette avec du papier absorbant afin de retirer l'excès d'huile de cuisson. Bon appétit !
+#---------------#

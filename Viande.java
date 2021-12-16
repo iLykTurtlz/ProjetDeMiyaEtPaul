@@ -12,9 +12,13 @@ public class Viande extends ParPoids{
         return nutriTab;
     }
 
+    
+
     public String toString(){
-        return super.toString()+" Cholésterol : "+this.choles+" mg";
+        return super.toString()+String.format("%20s%6.1f%3s","Cholésterol : ",this.choles,"mg");
     }
+
+
 
     public Viande clone(){
         return new Viande(this.nom, this.cal, this.carb, this.gras, this.prot, this.choles, this.poids);

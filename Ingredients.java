@@ -19,9 +19,14 @@ public abstract class Ingredients{
         return nutriTab;
     }
 
+    
     public String toString(){
-        return this.nom+" Calories : "+this.cal+"cal Carbohydrates : "+this.carb+"mg Gras :"+this.gras+"mg Protéines : "+this.prot+" mg";
-    }
+
+        return String.format("%-25s%12s%6.1f%4s%25s%6.1f%3s%20s%6.1f%3s%20s%6.1f%3s",this.nom,"Calories : ",this.cal,"kCal",
+"Carbohydrates : ",this.carb,"g", "Gras : ",this.gras,"g",
+"Protéines : ",this.prot,"g");
+
+}
 
     public String getNom(){
         return nom;

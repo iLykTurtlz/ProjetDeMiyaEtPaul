@@ -8,7 +8,7 @@ public abstract class ParVolume extends Ingredients{
     }
 
     public double[] getNutri(){
-        double[] nutriTab = {super.cal*vol/250,super.carb*vol/250,super.gras*vol/250,super.prot*vol/250};
+        double[] nutriTab = {super.cal*vol/100,super.carb*vol/100,super.gras*vol/100,super.prot*vol/100};
         return nutriTab;
     }
     public void setQte(double qte){

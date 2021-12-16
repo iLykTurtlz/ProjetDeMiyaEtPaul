@@ -1,3 +1,12 @@
 ParPoids Chocolat 63 48 96 45 100
 ParPoids Farine 20 48 86 74 300
-ParPaquet Oeufs 78 63 04 45 2
+ParPaquet Oeuf 148 1.6 10 11 1
+ParPoids Sucre 400 100 0 0 500
+Boisson Lait 45 4.5 1.5 3 1000
+ParPaquet Pomme 73 17 0.4 0.4 1
+ParPoids Beurre 760 0 84 1 250
+ParVolume Crème-fraiche 300 4 30 3 250
+ParPaquet Cannelle 0 0 0 0 1
+ParPaquet Banane 136 32 0.7 1.5 1
+ParPoids Fraise 33 7 0.2 1 250
+ParPoids Brioche 375 47 16 10 100
