@@ -29,11 +29,7 @@ public class InventaireIngredients{
                 Double carb = Double.valueOf(data[3]);
                 Double gras = Double.valueOf(data[4]);
                 Double prot = Double.valueOf(data[5]);
-                if(data[0].equals("Ingredient")){
-                    Ingredients ing = new Ingredients(name,cal,carb,gras,prot);
-                    this.tabIngredients.add(ing);
-                }
-                else if(data[0].equals("ParPaquet")){
+                if(data[0].equals("ParPaquet")){
                     ParPaquet ing = new ParPaquet(name,cal,carb,gras,prot,Double.valueOf(data[6]));
                     this.tabIngredients.add(ing);
                 }
@@ -53,6 +49,10 @@ public class InventaireIngredients{
                     Condiment ing = new Condiment(name,cal,carb,gras,prot,Double.valueOf(data[6]));
                     this.tabIngredients.add(ing);
                 }
+                else if(data[0].equals("ParPoids")){
+                    ParPoids ing = new ParPoids(name,cal,carb,gras,prot,Double.valueOf(data[6]));
+                    this.tabIngredients.add(ing);
+                }               
         
 
             }

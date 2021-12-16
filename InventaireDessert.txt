@@ -1,0 +1,3 @@
+ParPoids Chocolat 63 48 96 45 100
+ParPoids Farine 20 48 86 74 300
+ParPaquet Oeufs 78 63 04 45 2

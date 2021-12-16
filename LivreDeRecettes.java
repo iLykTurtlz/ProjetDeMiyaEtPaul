@@ -31,7 +31,7 @@ public class LivreDeRecettes{
             ArrayList <ArrayList <Double>> lst_data_recettes_qte = new ArrayList<ArrayList <Double>>();
             int instr = 1;
             while ((line = bf.readLine()) != null){
-                if (!(line.substring(0,1).equals("#"))){
+                if (!(line.charAt(0)=='#')){
                     if(instr == 1){
                         noms_recettes.add(line);
                         lst_data_recettes_labels.add(new ArrayList<String>());
@@ -56,7 +56,7 @@ public class LivreDeRecettes{
                 for(int j=0; j<nbIngredients; j++){
                     ArrayList<Ingredients> inventaireTab = inventaire.getTabIngredients();
                     int k=0;
-                    while(!(inventaireTab.get(k).getNom().equals(lst_data_recettes_labels.get(i).get(j)))){
+                    while((k<inventaireTab.size())&&!(inventaireTab.get(k).getNom().equals(lst_data_recettes_labels.get(i).get(j)))){
                         k++;
                     }
                     tabI[j]=inventaireTab.get(k).clone();

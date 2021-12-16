@@ -4,7 +4,7 @@ public class Regime{
     private double[] carbMinMax;
     private double[] grasMinMax;
     private double[] protMinMax;
-    private static Regime REGIME = new Regime();
+    public static Regime REGIME = new Regime();
 
     private Regime(){
         this.calMinMax = new double[2];
@@ -13,53 +13,52 @@ public class Regime{
         this.protMinMax = new double[2];
     }
 
-    public void setRegime(double calMin, double calMax, double carbMin, double carbMax, double grasMin, double grasMax, double protMin, double protMax){
-        this.calMinMax[0]=calMin;
-        this.calMinMax[1]=calMax;
-        this.carbMinMax[0]=carbMin;
-        this.carbMinMax[1]=carbMax;
-        this.grasMinMax[0]=grasMin;
-        this.grasMinMax[1]=grasMax;
-        this.protMinMax[0]=protMin;
-        this.protMinMax[1]=protMax;
+    public static void setRegime(double calMin, double calMax, double carbMin, double carbMax, double grasMin, double grasMax, double protMin, double protMax){
+        REGIME.calMinMax[0]=calMin;
+        REGIME.calMinMax[1]=calMax;
+        REGIME.carbMinMax[0]=carbMin;
+        REGIME.carbMinMax[1]=carbMax;
+        REGIME.grasMinMax[0]=grasMin;
+        REGIME.grasMinMax[1]=grasMax;
+        REGIME.protMinMax[0]=protMin;
+        REGIME.protMinMax[1]=protMax;
     }
 
-    public void setCalMinMax(double calMin, double calMax){
-        this.calMinMax[0]=calMin;
-        this.calMinMax[1]=calMax;
+    public static void setCalMinMax(double calMin, double calMax){
+        REGIME.calMinMax[0]=calMin;
+        REGIME.calMinMax[1]=calMax;
     }
 
-    public void setCarbMinMax(double carbMin, double carbMax){
-        this.carbMinMax[0]=carbMin;
-        this.carbMinMax[1]=carbMax;
+    public static void setCarbMinMax(double carbMin, double carbMax){
+        REGIME.carbMinMax[0]=carbMin;
+        REGIME.carbMinMax[1]=carbMax;
     }
 
-    public void setGrasMinMax(double grasMin, double grasMax){
-        this.grasMinMax[0]=grasMin;
-        this.grasMinMax[1]=grasMax;
+    public static void setGrasMinMax(double grasMin, double grasMax){
+        REGIME.grasMinMax[0]=grasMin;
+        REGIME.grasMinMax[1]=grasMax;
     }
 
-    public void setProtMinMax(double protMin, double protMax){
-        this.protMinMax[0]=protMin;
-        this.protMinMax[1]=protMax;
+    public static void setProtMinMax(double protMin, double protMax){
+        REGIME.protMinMax[0]=protMin;
+        REGIME.protMinMax[1]=protMax;
     }
 
-    public double[] getCalMinMax(){
-        return this.calMinMax;
+    public static double[] getCalMinMax(){
+        return REGIME.calMinMax;
     }
 
-    public double[] getCarbMinMax(){
-        return this.calMinMax;
+    public static double[] getCarbMinMax(){
+        return REGIME.calMinMax;
     }
 
-    public double[] getGrasMinMax(){
-        return this.calMinMax;
+    public static double[] getGrasMinMax(){
+        return REGIME.calMinMax;
     }
 
-    public double[] getProtMinMax(){
-        return this.calMinMax;
+    public static double[] getProtMinMax(){
+        return REGIME.calMinMax;
     }
-
 
 
 }

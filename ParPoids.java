@@ -1,4 +1,4 @@
-public abstract class ParPoids extends Ingredients{
+public class ParPoids extends Ingredients{
 
     protected double poids;
 
@@ -22,5 +22,8 @@ public abstract class ParPoids extends Ingredients{
         }
         return (this.nom).equals(i.nom)&&(this.cal==i.cal)&&(this.carb==i.carb)&&(this.gras==i.gras)&&(this.prot==i.prot)&&(this.poids==(((ParPoids)i).poids));
     }
+    public ParPoids clone(){
+        return new ParPoids(super.nom, super.cal, super.carb, super.gras, super.prot, this.poids);
+    }   
 
 }
