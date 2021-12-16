@@ -56,7 +56,7 @@ public class LivreDeRecettes{
                 for(int j=0; j<nbIngredients; j++){
                     ArrayList<Ingredients> inventaireTab = inventaire.getTabIngredients();
                     int k=0;
-                    while((k<inventaireTab.size())&&!(inventaireTab.get(k).getNom().equals(lst_data_recettes_labels.get(i).get(j)))){
+                    while((k<inventaireTab.size()-1)&&!(inventaireTab.get(k).getNom().equals(lst_data_recettes_labels.get(i).get(j)))){
                         k++;
                     }
                     tabI[j]=inventaireTab.get(k).clone();

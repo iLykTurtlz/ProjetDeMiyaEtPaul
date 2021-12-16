@@ -28,7 +28,7 @@ public class Regime implements Sauvegardable {
 
 	public void init(double[][] contraintes, String fichiersrc)	{
 		for (int i=0; i<contraintes.length; i++)	{
-			for (int j=0; j<contraintes.length; j++)	{
+			for (int j=0; j<contraintes[i].length; j++)	{
 				this.contraintes[i][j]=contraintes[i][j];
 			}
 		}	
