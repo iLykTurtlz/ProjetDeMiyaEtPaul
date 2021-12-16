@@ -1,6 +1,41 @@
-Oeufs durs
-Oeufs 1
-Mayonnaise 30
-#!kln
-#lknj
-#kfgh
+Saint-Jacques poêlées
+Noix-de-Saint-Jacques 100
+Beurre 20
+#Si besoin, décongelez les noix de Saint-Jacques en les plaçant dans un sac hermétique puis en plaçant ce sac dans de l'eau à  température ambiante. Retirez le corail de chaque noix de Saint-Jacques en tirant légèrement.
+#
+#Faites chauffer un filet d'huile dans une poêle bien chaude. Salez les noix de Saint-Jacques et ajoutez-les dans la poêle.
+#Attention il ne faut surtout pas les remuer ! Faites cuire environ une minute.
+#
+#Quand les noix de Saint-Jacques sont bien dorées sous le dessous on peut les retourner, elles vont se détacher toutes seules.
+#
+#Une fois les noix de Saint-Jacques retournées, ajoutez une noisette de beurre dans la poêle. Continuez la cuisson pendant une minute tout en arrosant. Servez les noix de Saint-Jacques. C'est prêt !
+#-----------------------------#
+Salade-betterave-avocat-chèvre
+Betterave 150
+Salade 2
+Chèvre 30
+Moutarde 2.5
+Vinaigre 2.5
+Avocat 0.5
+#Réalisez la vinaigrette en mélangeant 1 cuillère à café de vinaigre pour 1 cuillère à soupe d'huile d'olive et ajoutez la moutarde à l'ancienne. Salez et poivrez.
+#Coupez l'avocat en deux et ôtez le noyaux. Taillez ensuite des fines lamelles.
+#Dans un saladier, ajoutez la salade, les betteraves coupées en cubes, le chèvre émietté, l'avocat et la vinaigrette, mélangez. C'est prêt !
+#---------------------#
+Toast-prosciutto-oeufs
+Pain 2
+Oeuf 1
+Jambon 2
+Fromage-frais 30
+Salade 1
+#Faites cuire les œufs dans une casserole d'eau bouillante pendant 9 min.
+#
+#Coupez le pain en tranches s'il n'est pas tranché. (Vous pouvez le faire griller si vous le souhaitez)
+#
+#Tartinez le pain avec le fromage frais et déposez une tranche de prosciutto sur le dessus. 
+#
+#Une fois les œufs cuits, plongez-les directement dans un bain d'eau froide pour stopper la cuisson, puis écalez-les.
+# 
+#Coupez les œufs en deux et déposez-les sur les toasts.
+#
+#Préparez une vinaigrette, servez le toast avec la mâche arrosée de vinaigrette. C'est prêt !
+#--------------------------#

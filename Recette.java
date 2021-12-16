@@ -50,14 +50,15 @@ public class Recette{
         ArrayList<Recette> liste_recettes = l.getLivre();
         int idx = (int)(Math.random()*(liste_recettes.size()));
         int securite_iterateur = 0;
-        while(((liste_recettes.get(idx).calculNutri()[0]>(r.getCalMinMax()[1]-nutriJournee[0])
-            || liste_recettes.get(idx).calculNutri()[1]>(r.getCarbMinMax()[1]-nutriJournee[1])
-            || liste_recettes.get(idx).calculNutri()[2]>(r.getGrasMinMax()[1]-nutriJournee[2])
-            || liste_recettes.get(idx).calculNutri()[3]>(r.getProtMinMax()[1])-nutriJournee[3])
-            || liste_recettes.get(idx).calculNutri()[0]<(r.getCalMinMax()[0]+nutriJournee[0])
-            || liste_recettes.get(idx).calculNutri()[1]<(r.getCalMinMax()[0]+nutriJournee[1])
-            || liste_recettes.get(idx).calculNutri()[2]<(r.getCalMinMax()[0]+nutriJournee[2])
-            || liste_recettes.get(idx).calculNutri()[3]<(r.getCalMinMax()[0]+nutriJournee[3]))
+        double[][]contraintes = r.getContraintes();
+        while(((liste_recettes.get(idx).calculNutri()[0]>(contraintes[0][1]-nutriJournee[0])
+            || liste_recettes.get(idx).calculNutri()[1]>(contraintes[1][1]-nutriJournee[1])
+            || liste_recettes.get(idx).calculNutri()[2]>(contraintes[2][1]-nutriJournee[2])
+            || liste_recettes.get(idx).calculNutri()[3]>(contraintes[3][1])-nutriJournee[3])
+            || liste_recettes.get(idx).calculNutri()[0]<(contraintes[0][0]+nutriJournee[0])
+            || liste_recettes.get(idx).calculNutri()[1]<(contraintes[1][0]+nutriJournee[1])
+            || liste_recettes.get(idx).calculNutri()[2]<(contraintes[2][0]+nutriJournee[2])
+            || liste_recettes.get(idx).calculNutri()[3]<(contraintes[3][0]+nutriJournee[3]))
             && securite_iterateur<liste_recettes.size() ){
             idx = (int)(Math.random()*(liste_recettes.size()));
             securite_iterateur++;
@@ -76,10 +77,11 @@ public class Recette{
         ArrayList<Recette> liste_recettes = l.getLivre();
         int idx = (int)(Math.random()*(liste_recettes.size()));
         int securite_iterateur = 0;
-        while(((liste_recettes.get(idx).calculNutri()[0]>(r.getCalMinMax()[1]-nutriJournee[0])
-            || liste_recettes.get(idx).calculNutri()[1]>(r.getCalMinMax()[1]-nutriJournee[0])
-            || liste_recettes.get(idx).calculNutri()[2]>(r.getCalMinMax()[1]-nutriJournee[0])
-            || liste_recettes.get(idx).calculNutri()[3]>(r.getCalMinMax()[1]-nutriJournee[0]))) && securite_iterateur<liste_recettes.size() ){
+        double[][]contraintes = r.getContraintes();
+        while(((liste_recettes.get(idx).calculNutri()[0]>(contraintes[0][1]-nutriJournee[0])
+            || liste_recettes.get(idx).calculNutri()[1]>(contraintes[1][1]-nutriJournee[1])
+            || liste_recettes.get(idx).calculNutri()[2]>(contraintes[2][1]-nutriJournee[2])
+            || liste_recettes.get(idx).calculNutri()[3]>(contraintes[3][1])-nutriJournee[3])) && securite_iterateur<liste_recettes.size() ){
             idx = (int)(Math.random()*(liste_recettes.size()));
             securite_iterateur++;
         }

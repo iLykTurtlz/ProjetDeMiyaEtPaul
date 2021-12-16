@@ -5,7 +5,6 @@ public class TestMenu{
         test.genererInventaire();
         LivreDeRecettes livretest = new LivreDeRecettes("Mon livre de riz et steak, miam","testLivre.txt","testInventaire.txt");
         livretest.genererLivre();
-        Regime.setRegime(1200,3000,56,78,96,130,10,20);
         InventaireIngredients ingDessert = new InventaireIngredients("InventaireDessert.txt");
         ingDessert.genererInventaire();
         LivreDeRecettes livreDesserts = new LivreDeRecettes("Mon livre de desserts","Desserts.txt","InventaireDessert.txt");
